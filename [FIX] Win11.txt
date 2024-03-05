@@ -1,0 +1,9 @@
+1. Run AdvancedRun.exe (https://www.nirsoft.net/utils/advanced_run.html)
+2. Program to Run: CMD.exe
+3. Run ass... TrustedInstaller
+4. Press Run
+5. Enter these commands:
+	> icacls c:\windows\system32\en-us /grant administrators:F
+	> icacls c:\windows\system32\en-us /grant "NT AUTHORITY\SYSTEM":F
+6. Close everything
+7. Install normally
